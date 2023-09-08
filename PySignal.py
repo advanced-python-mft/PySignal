@@ -265,7 +265,7 @@ class SignalFactory(dict):
         """
         Sets the block on any provided signals, or to all signals
 
-        :param signals: defaults to all signals. Accepts either a single string or a list of strings
+        :param signal: defaults to all signals. Accepts either a single string or a list of strings
         :param isBlocked: the state to set the signal to
         """
         if signals:
